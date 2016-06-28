@@ -1,0 +1,976 @@
+.banner{
+	background: url('../img/home1.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	min-height: 500px;
+	height: 100%;
+	display: inline-block;
+	border: none;
+}
+
+
+.typi{
+	font-size: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+.photograhper{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+}
+
+
+.narbar-color{
+	background: rgba(194,195,183,0.7);
+	border-radius: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100px!important;
+	
+}
+
+.nav-form{
+	margin: 0px;
+}
+
+
+.nav-colap{
+	height: 100px!important; 
+	padding-right: 220px; 
+	padding-left: 170px;
+}
+
+.btn-nav{
+	background-color: rgba(194,195,183,0);
+	border: none;
+	margin: 0px;
+	color: #252525;
+	padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 18px;
+	height: 93px;
+}
+
+
+.btn-nav:hover{
+	color: #fff;
+	border-bottom: 4px solid #54bec4; 
+}
+
+.btn-home{
+	background-color: rgba(194,195,183,0);
+	border: none;
+	margin: 0px;
+	border-bottom: 4px solid #54bec4; 
+	color: #fff;
+	padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 18px;
+	height: 93px;
+
+}
+
+.btn-active{
+	background-color: #54bec4;
+    border: none;
+    margin: 0px;
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 28px;
+	height: 98px;
+	color: #fff;
+}
+
+.paragraph{
+	padding-right: 210px;
+}
+
+.paragraph1{
+	font-size: 28px;
+	text-align: justify;
+}
+
+.paragraph2{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.paragraph3{
+	font-size: 14px;
+	border-left: 2px solid #54bec4;
+	margin-left: 10px;
+}
+
+.contact{
+	background: #252525;
+	color: #fff;
+	text-align: center;
+}
+
+.contact-content{
+	text-align: justify;
+	display: inline-block;
+	margin: 20px 0px 20px 300px;
+}
+
+.icon{
+	font-size: 50px;
+	font-weight: 500;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.timeLine{
+	text-align: center;
+}
+
+.line{
+	height: 100%;
+	width: auto;
+}
+.line1{
+	display: none;
+}
+
+.year{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #41b6bd;
+}
+
+.year p{
+	font-family: Myriad Pro ;
+	font-style: normal; 
+	font-size: 18px; 
+	color: #b2b2b2;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.year1{
+	top: 10%;
+	left: 50%;
+}
+
+.year2{
+	top: 30%;
+	left: 43%;
+}
+.year3{
+	top: 50%;
+	left: 50%;
+}
+
+.year4{
+	top: 70%;
+	left: 43%;
+}
+
+.in{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+ }
+
+.year-content{
+	width: 300px;
+}
+
+.year-content1{
+	text-align: right;
+	top: 10%;
+	left: 25%;
+}
+
+.year-content2{
+	text-align: left;
+	top: 30%;
+	left: 54%;
+}
+
+.year-content3{
+	text-align: right;
+	top: 50%;
+	left: 25%;
+}
+
+.year-content4{
+	text-align: left;
+	top: 70%;
+	left: 54%;
+}
+
+.year-content h1{
+	font-size: 18px;
+	margin: 0px;
+}
+
+.year-content h2{
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.year-content h3{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.blur-face{
+	background-color: rgba(101,101,101,0.7);
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio{
+	background-color: #252525;
+}
+
+.portfolio1{
+	font-size: 34px;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.portfolio-content{
+
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.portfolio-pic{
+	width: 220px;
+	height: auto;
+	text-align: center;
+}
+.portfolio-pic2{
+	width: 440px;
+	height: auto;
+	text-align: center;
+
+}
+.item{
+	position: relative;
+}
+.item-hover{
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+.item:hover .item-hover{
+	background-color: rgba(123,202,203,0.8);
+	width: 100%;
+	height: 100%;
+	content: '';
+	display: flex;
+	
+}
+
+.item:hover .item-hover img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.viewmore{
+	height: 165px;
+}
+
+.viewmore1{
+	display: block;
+	background-color: white;
+	color: #41b6bd;
+	border: 2px solid #41b6bd;
+	font-size: 24px;
+	font-family: Segoe UI;
+	font-style:  Bold;
+	padding: 15px 60px;
+}
+
+.footer{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+}	
+
+
+.footer .contactMe{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20,20,20,0.7);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact1{
+	 top: 45%; 
+	 left: 10%;
+	 width: 350px;
+}
+
+.contact2{
+	top: 25%; 
+	left: 50%;
+	width: 520px;
+}
+.contact-map {
+	display: none;
+}
+.fbk {
+	padding-right: 50px;
+}
+
+.skp{
+	padding-left: 0px;
+}
+
+.email-address{
+	font-size: 16px; 
+	color: #fff;
+}
+
+.picMap{
+	width: 100%;
+}
+
+.input{
+	margin: 8px 0px;
+	padding: 10px 6px;
+	width: 500px;
+}
+
+.send{
+	width: 240px;
+	padding: 10px 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 10px;  
+
+	
+}
+
+.viewMap{
+	background-color: #54bec4;
+	width: 240px;
+	padding: 10px 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 10px;  
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+
+@media only screen and (min-width: 100px) and (max-width: 479px){
+	.banner{
+		min-height: 500px;
+	}
+	.nav-colap{
+		padding-right: 10px;
+		padding-left: 20px;
+		background-color: rgba(194,195,183,1);
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 360px;
+	}
+	.portfolio-pic2{
+		width: 360px;
+	}
+	.item-hover{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(123,202,203,0.6);
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	
+
+	.item-hover img{
+		position: absolute;
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	
+	.timeLine{
+		text-align: left;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.line{
+		display: none;
+	}
+	.line1{
+		height: 100%;
+		width: auto;
+		display: block;
+	}
+
+	.year1{
+		top: 4%;
+		left: 2%;
+	}
+
+	.year2{
+		top: 30%;
+		left: 2%;
+	}
+	.year3{
+		top: 56%;
+		left: 2%;
+	}
+
+	.year4{
+		top: 80%;
+		left: 2%;
+	}
+
+	.year-content{
+		width: 220px;
+	}
+
+	.year-content1{
+		text-align: left;
+		top: 4%;
+		left: 34%;
+	}
+
+	.year-content2{
+		text-align: left;
+		top: 30%;
+		left: 34%;
+	}
+
+	.year-content3{
+		text-align: left;
+		top: 56%;
+		left: 34%;
+	}
+
+	.year-content4{
+		text-align: left;
+		top: 50%;
+		left: 34%;
+	}
+
+	.contact1{
+		 top: 25%; 
+		 left: 10%;
+		 width: 100px;
+	}
+
+	.contact2{
+		top: 5%; 
+		left: 50%;
+		width: 200px;
+	}
+
+	.fbk {
+		padding-right: 20px;
+		width: 35px;
+		height: auto;
+	}
+
+	.skp{
+		width: 30px;
+		height: auto;
+	}
+
+	.email-address{
+		font-size: 12px; 
+		color: #fff;
+	}
+
+	.picMap{
+		width: 100%;
+		height: auto;
+	}
+
+	.input{
+		width: 150px;
+		height: 25px;
+
+	}
+
+	.textarea{
+		height: 50px;
+	}
+
+	.send{
+		width: 50px;	
+		height: 40px;	
+	}
+
+	.viewMap{
+		width: 80px;
+		height: 40px;
+	}
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.banner{
+		min-height: 350px;
+	}
+	.nav-colap{
+		padding-right: 30px;
+		padding-left: 30px;
+		background-color: rgba(194,195,183,1);
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 230px;
+	}
+	.portfolio-pic2{
+		width: 460px;
+	}
+	.item-hover{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(123,202,203,0.6);
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	
+
+	.item-hover img{
+		position: absolute;
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.timeLine{
+		text-align: left;
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+
+	.line{
+		display: none;
+	}
+	.line1{
+		height: 100%;
+		width: auto;
+		display: block;
+	}
+
+	.year1{
+		top: 10%;
+		left: 2%;
+	}
+
+	.year2{
+		top: 30%;
+		left: 2%;
+	}
+	.year3{
+		top: 50%;
+		left: 2%;
+	}
+
+	.year4{
+		top: 70%;
+		left: 2%;
+	}
+
+	.year-content{
+		width: 300px;
+	}
+
+	.year-content1{
+		text-align: left;
+		top: 10%;
+		left: 26%;
+	}
+
+	.year-content2{
+		text-align: left;
+		top: 30%;
+		left: 26%;
+	}
+
+	.year-content3{
+		text-align: left;
+		top: 50%;
+		left: 26%;
+	}
+
+	.year-content4{
+		text-align: left;
+		top: 70%;
+		left: 26%;
+	}
+	
+	.picMap{
+		min-height: 300px;
+	}
+
+	.contact1{
+		 top: 35%; 
+		 left: 10%;
+		 width: 150px;
+	}
+
+	.contact2{
+		top: 10%; 
+		left: 50%;
+		width: 220px;
+	}
+
+	.fbk {
+		padding-right: 20px;
+		width: 35px;
+		height: auto;
+	}
+
+	.skp{
+		width: 30px;
+		height: auto;
+	}
+
+	.email-address{
+		font-size: 14px; 
+		color: #fff;
+	}
+
+	.picMap{
+		width: 100%;
+		height: auto;
+	}
+
+	.input{
+		margin: 8px 0px;
+		padding: 10px 6px;
+		width: 200px;
+		height: 35px;
+	}
+
+	.textarea{
+		height: 85px;
+	}
+
+	.send{
+		width: 90px;
+
+		
+	}
+
+	.viewMap{
+		width: 90px;
+	}
+
+}
+@media only screen and (min-width: 769px) and (max-width: 959px){
+	.banner{
+		min-height: 600px;
+	}
+	.nav-colap{
+		padding-right: 20px;
+		padding-left: 30px;
+	}
+	.btn-nav{
+		padding: 0px 10px;
+	}
+	.btn-home{
+		padding: 0px 10px;
+	}
+	.btn-active{
+		padding: 0px 15px;
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 170px;
+	}
+	.portfolio-pic2{
+		width: 340px;
+	}
+	.item-hover{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(123,202,203,0.6);
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	
+
+	.item-hover img{
+		position: absolute;
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.timeLine{
+		text-align: left;
+		margin-left: 100px;
+		margin-bottom: 30px;
+	}
+
+	.line{
+		display: none;
+	}
+	.line1{
+		height: 100%;
+		width: auto;
+		display: block;
+	}
+
+	.year1{
+		top: 10%;
+		left: 2%;
+	}
+
+	.year2{
+		top: 30%;
+		left: 2%;
+	}
+	.year3{
+		top: 50%;
+		left: 2%;
+	}
+
+	.year4{
+		top: 70%;
+		left: 2%;
+	}
+
+	.year-content{
+		width: 300px;
+	}
+
+	.year-content1{
+		text-align: left;
+		top: 10%;
+		left: 25%;
+	}
+
+	.year-content2{
+		text-align: left;
+		top: 30%;
+		left: 25%;
+	}
+
+	.year-content3{
+		text-align: left;
+		top: 50%;
+		left: 25%;
+	}
+
+	.year-content4{
+		text-align: left;
+		top: 70%;
+		left: 25%;
+	}
+
+	.contact1{
+		 top: 45%; 
+		 left: 10%;
+		 width: 350px;
+	}
+
+	.contact2{
+		top: 25%; 
+		left: 50%;
+		width: 520px;
+	}
+
+	.fbk {
+		padding-right: 50px;
+	}
+
+
+	.picMap{
+		width: 100%;
+		height: auto;
+	}
+
+	.input{
+		margin: 8px 0px;
+		padding: 10px 6px;
+		width: 500px;
+	}
+
+	.send{
+		width: 240px;
+		padding: 10px 6px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		margin-right: 10px;  
+
+		
+	}
+
+	.viewMap{
+		background-color: #54bec4;
+		width: 240px;
+		padding: 10px 6px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		margin-left: 10px;  
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1240px){
+	.banner{
+		min-height: 600px;
+	}
+
+	.nav-colap{
+		padding-right: 40px;
+		padding-left: 80px;
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 170px;
+	}
+	.portfolio-pic2{
+		width: 340px;
+	}
+	.item-hover{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(123,202,203,0.6);
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	
+
+	.item-hover img{
+		position: absolute;
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+
+	.year2{
+		top: 30%;
+		left: 41%;
+	}
+
+	.year4{
+		top: 70%;
+		left: 41%;
+	}
+
+	.year-content1{
+		text-align: right;
+		top: 10%;
+		left: 18%;
+	}
+
+	.year-content3{
+		text-align: right;
+		top: 50%;
+		left: 18%;
+	}
+		
+	.contact1{
+		 top: 45%; 
+		 left: 10%;
+		 width: 200px;
+	}
+
+	.contact2{
+		top: 14%; 
+		left: 40%;
+		width: 300px;
+	}
+
+	.fbk {
+		padding-right: 30px;
+	}
+
+	.input{
+		width: 300px;
+	}
+
+	.send{
+		width: 135px;		
+	}
+
+	.viewMap{
+		width: 135px; 
+	}
+
+}	
+
+@media only screen and (min-width: 1241px){
+	.banner{
+		min-height: 670px;
+	}
+}
+
+
